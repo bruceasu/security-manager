@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<db>
+    <meta name="version" content="1" />
+    <meta name="description" content="This is a sample security database." />
+
+    <data>
+        <item id="password1" tags="home pc">
+            <field name="account">user</field>
+            <field name="password">pass</field>
+            <field name="description">
+                <![CDATA[这是我的电脑账号&密码]]>
+            </field>
+        </item>
+        <item id="password2" tags="office pc">
+            <field name="account">user-o</field>
+            <field name="password">pass-o</field>
+            <field name="description">
+                <![CDATA[这是我办公室的电脑密码]]>
+            </field>
+        </item>
+    </data>
+</db>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<db>
+	<meta name="version" content="1" />
+	<meta name="description" content="This is a sample security database." />
+	<data>
+		<item id="password3" tags="efg kkk " >
+			<field name="password" content="abcdefg" />
+			<field name="description" content="desc" />
+			<field name="account" content="acc" />
+		</item>
+		<item id="password2" tags="pc office " >
+			<field name="password" content="pass-o" />
+			<field name="description" content="这是我办公室的电脑密码" />
+			<field name="account" content="user-o" />
+		</item>
+		<item id="password1" tags="pc home " >
+			<field name="password" content="pass" />
+			<field name="description">
+				<![CDATA[这是我的电脑账号&密码]]>
+			</field>
+			<field name="account" content="user" />
+		</item>
+		<item id="abdd" />
+		<item id="abcd" />
+	</data>
+</db>
